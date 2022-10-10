@@ -1,5 +1,6 @@
 # wall-following-ROS-Cpp
 Control a two-wheels differential drive robot with a virtual car-like robot  
+![image](fig.png)
 
 -x while doing a ROS implementation for a wall follower robot, I invented a method to control this two-wheel differential drive robot indirectly by a car-like modleing with steering and throttle rather than linear and angular command that used in two-wheels differential drive  
 
