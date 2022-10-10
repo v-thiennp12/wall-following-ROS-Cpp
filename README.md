@@ -9,4 +9,13 @@ Control a two-wheels differential drive robot with a virtual car-like robot
 
 -x while applying the control on the car-like robot, we can implement many kind of advances in autonomous driving, for my  ROS project I tried with PID, with Stanley, to control cross-track-error and heading-error of my robot  
 
-*youtube livestream : https://www.youtube.com/watch?v=h8XQrfBhjpU&ab_channel=BecomingaROSDeveloper
+*youtube livestream : https://www.youtube.com/watch?v=h8XQrfBhjpU&ab_channel=BecomingaROSDeveloper  
+**presentation : https://drive.google.com/file/d/1Go-H_I698mGTNF5yPivYcZZUdz6BSLz5/view  
+***blog : https://www.nguyenrobot.com/autonomous-driving  
+
+##Build  
+catkin_make --only-package-with-deps find_wall_node  
+catkin_make --only-package-with-deps odom_record_node  
+catkin_make --only-package-with-deps follow_wall_node  
+
+*dependencies : ROS Noetic, catkin  
