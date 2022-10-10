@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="odom_record_node" type="odom_record_node" name="odom_record_node" output="screen" />
+</launch>

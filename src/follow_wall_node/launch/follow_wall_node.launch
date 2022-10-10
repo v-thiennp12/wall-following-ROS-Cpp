@@ -1,0 +1,5 @@
+<launch>
+    <include file="$(find odom_record_node)/launch/odom_record_node.launch"/>
+    <node pkg="find_wall_node" type="find_wall_server" name="find_wall_server" output="screen" />
+    <node pkg="follow_wall_node" type="follow_wall_node" name="follow_wall_node" output="screen" />
+</launch>

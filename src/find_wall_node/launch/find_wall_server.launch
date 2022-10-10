@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="find_wall_node" type="find_wall_server" name="find_wall_server" output="screen" />
+</launch>
